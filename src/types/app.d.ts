@@ -29,6 +29,11 @@ export type SearchFieldProps = {
   handleLocation: (loc: any) => void;
   toggleSearch: React.Dispatch<React.SetStateAction<boolean>>;
 };
+
+export type ParamsApi = {
+  cityName: string;
+  days?: number;
+};
 /*
 location
 current

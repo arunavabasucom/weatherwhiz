@@ -44,7 +44,7 @@ const SearchField = ({
       {locations.length > 0 && showSearch ? (
         <View className="absolute w-full bg-gray-300 top-16 rounded-3xl ">
           {locations.map((loc, index) => {
-            let showBorder = index + 1 != locations.length;
+            let showBorder = index + 1 !== locations.length;
             let borderClass = showBorder ? ' border-b-2 border-b-gray-400' : '';
             return (
               <TouchableOpacity
