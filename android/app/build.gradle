@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.weatherwhiz"
+    namespace "com.arunavabasu.projects.weatherwhiz"
     defaultConfig {
-        applicationId "com.weatherwhiz"
+        applicationId "com.arunavabasu.projects.weatherwhiz"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

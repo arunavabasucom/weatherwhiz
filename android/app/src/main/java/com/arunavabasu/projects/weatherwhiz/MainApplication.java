@@ -1,4 +1,4 @@
-package com.weatherwhiz;
+package com.arunavabasu.projects.weatherwhiz;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

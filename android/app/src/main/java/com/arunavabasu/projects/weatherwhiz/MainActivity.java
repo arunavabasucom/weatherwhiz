@@ -1,4 +1,4 @@
-package com.weatherwhiz;
+package com.arunavabasu.projects.weatherwhiz;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
