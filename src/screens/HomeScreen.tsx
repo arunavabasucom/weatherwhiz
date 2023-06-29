@@ -18,13 +18,12 @@ export default function HomeScreen() {
   const [weather, setWeather] = useState({});
 
   const handleSearch = (search: any) => {
-    if (search && search.length > 2)
+    if (search && search.length > 2) {
       fetchLocations({cityName: search}).then(data => {
-        // console.log('got locations: ',data);
         setLocations(data);
       });
+    }
   };
-
   const handleLocation = (loc: any) => {
     setLoading(true);
     toggleSearch(false);
@@ -69,13 +68,13 @@ export default function HomeScreen() {
     <View className="flex-1 relative">
       <StatusBar barStyle={'light-content'} />
       <Image
-        blurRadius={70}
-        source={require('../../assets/images/bg.png')}
+        blurRadius={80}
+        source={require('../../assets/images/bgg.png')}
         className="absolute w-full h-full"
       />
       {loading ? (
         <View className="flex-1 flex-row justify-center items-center">
-          <Progress.CircleSnail thickness={10} size={140} color="#0bb3b2" />
+          <Progress.Bar thickness={10} size={140} color="#0bb3b2" />
         </View>
       ) : (
         <SafeAreaView className="flex flex-1">

@@ -25,22 +25,16 @@ export type ForecastProps = {
 export type SearchFieldProps = {
   locations: Location[];
   showSearch: boolean;
-  handleTextDebounce: DebouncedFunc<(search: any) => void>;
-  handleLocation: (loc: any) => void;
-  toggleSearch: React.Dispatch<React.SetStateAction<boolean>>;
+  handleTextDebounce: any;
+  handleLocation: any;
+  toggleSearch: any;
 };
 
 export type ParamsApi = {
   cityName: string;
   days?: number;
 };
-/*
-location
-current
-forecast:{
-  forecastday
-}
-*/
+
 export interface Weather {
   location: Location;
   current: Current;
