@@ -3,7 +3,7 @@
 <img src="/assets/image.png" align="left"
 width="200" hspace="10" vspace="10">
 
-wallabag is a weather app for your choice.  
+weatherwhiz is a weather app for your choice.  
 
 Your go-to weather app for real-time forecasts, interactive maps, and personalized alerts. Stay informed and plan your day with accurate weather information at your fingertips.
 
